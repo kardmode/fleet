@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 from setuptools import setup, find_packages
-import os
+import re, ast
 
+with open('requirements.txt') as f:
+	install_requires = f.read().strip().split('\n')
+	
+# get version from __version__ variable in mrp/__init__.py
+_version_re = re.compile(r'__version__\s+=\s+(.*)')
 version = '1.0.0'
 
 setup(
