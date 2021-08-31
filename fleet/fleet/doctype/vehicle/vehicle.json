@@ -4,7 +4,7 @@
  "creation": "2015-11-02 11:37:00.671121",
  "description": "Enter details of Vehicle. Legal details, Purchase and Sales Detail",
  "doctype": "DocType",
- "document_type": "Documents",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
@@ -201,7 +201,7 @@
   }
  ],
  "icon": "octicon octicon-rocket",
- "modified": "2019-12-31 19:32:07.627768",
+ "modified": "2020-05-04 22:21:42.804461",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Vehicle",
