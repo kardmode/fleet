@@ -1,17 +1,14 @@
 {
- "allow_rename": 1,
  "append_company_abbr_to_name": "0",
- "autoname": "field:account_name",
+ "autoname": "field:account_number",
  "creation": "2016-01-12 21:57:44.937074",
  "doctype": "DocType",
- "document_type": "Document",
+ "document_type": "Documents",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "account_name",
-  "account_number",
-  "company",
-  "pin"
+  "account_number"
  ],
  "fields": [
   {
@@ -19,8 +16,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Account Name",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "account_number",
@@ -29,22 +25,9 @@
    "label": "Account Number",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "pin",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "PIN"
-  },
-  {
-   "fieldname": "company",
-   "fieldtype": "Link",
-   "label": "Company",
-   "options": "Company"
   }
  ],
- "modified": "2020-05-04 22:51:20.720223",
+ "modified": "2019-12-31 15:14:22.485855",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Salik Accounts",
@@ -77,5 +60,6 @@
  ],
  "quick_entry": 1,
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "track_changes": 1
 }
