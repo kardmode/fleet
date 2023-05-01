@@ -1,0 +1,74 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Qb_7tw-exo\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Fleet</span>\",\"col\":12}},{\"id\":\"0yHz_pz32Y\",\"type\":\"card\",\"data\":{\"card_name\":\"Vehicle\",\"col\":4}}]",
+ "creation": "2023-02-09 13:17:01.514419",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Fleet",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle",
+   "link_count": 0,
+   "link_to": "Vehicle",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Model",
+   "link_count": 0,
+   "link_to": "Model",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Make",
+   "link_count": 0,
+   "link_to": "Make",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salik Accounts",
+   "link_count": 0,
+   "link_to": "Salik Accounts",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-02-24 22:28:42.709518",
+ "modified_by": "Administrator",
+ "module": "Fleet",
+ "name": "Fleet",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 15.0,
+ "shortcuts": [],
+ "title": "Fleet"
+}
