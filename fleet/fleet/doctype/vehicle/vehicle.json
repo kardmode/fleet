@@ -1,10 +1,11 @@
 {
+ "actions": [],
  "allow_import": 1,
  "autoname": "naming_series:",
  "creation": "2015-11-02 11:37:00.671121",
  "description": "Enter details of Vehicle. Legal details, Purchase and Sales Detail",
  "doctype": "DocType",
- "document_type": "Documents",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
@@ -67,7 +68,8 @@
   {
    "fieldname": "year",
    "fieldtype": "Int",
-   "label": "Year"
+   "label": "Year",
+   "reqd": 1
   },
   {
    "fieldname": "cb1_details",
@@ -201,10 +203,12 @@
   }
  ],
  "icon": "octicon octicon-rocket",
- "modified": "2019-12-31 19:32:07.627768",
+ "links": [],
+ "modified": "2023-09-27 05:31:39.194154",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Vehicle",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -224,5 +228,6 @@
  "search_fields": "vehicle_name",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "title_field": "vehicle_name"
 }

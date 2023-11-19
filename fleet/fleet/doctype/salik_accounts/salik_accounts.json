@@ -1,14 +1,18 @@
 {
+ "actions": [],
  "append_company_abbr_to_name": "0",
  "autoname": "field:account_number",
  "creation": "2016-01-12 21:57:44.937074",
  "doctype": "DocType",
- "document_type": "Documents",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "account_name",
-  "account_number"
+  "account_number",
+  "account_owner",
+  "company",
+  "issue_date"
  ],
  "fields": [
   {
@@ -25,12 +29,31 @@
    "label": "Account Number",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "account_owner",
+   "fieldtype": "Data",
+   "label": "Account Owner"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date",
+   "reqd": 1
   }
  ],
- "modified": "2019-12-31 15:14:22.485855",
+ "links": [],
+ "modified": "2023-09-27 05:35:13.955596",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Salik Accounts",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -61,5 +84,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "track_changes": 1
 }
