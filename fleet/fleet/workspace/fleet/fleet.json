@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Fill Up",
-   "label": "Fill Up"
-  }
- ],
- "content": "[{\"id\":\"8EjIYa_W-Y\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Fill Up\",\"col\":12}},{\"id\":\"k0tiDpPQt5\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Vehicle\",\"col\":6}},{\"id\":\"MdgjBey9IG\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Salik Accounts\",\"col\":6}}]",
+ "charts": [],
+ "content": "[{\"id\":\"k0tiDpPQt5\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Vehicle\",\"col\":6}},{\"id\":\"MdgjBey9IG\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Salik Accounts\",\"col\":6}}]",
  "creation": "2023-02-09 13:17:01.514419",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,7 +12,7 @@
  "kard_menu": [],
  "label": "Fleet",
  "links": [],
- "modified": "2023-09-27 05:40:17.394916",
+ "modified": "2024-01-28 00:26:50.629503",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Fleet",

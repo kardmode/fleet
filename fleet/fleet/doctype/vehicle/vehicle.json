@@ -150,7 +150,7 @@
   {
    "fieldname": "insurance_policy",
    "fieldtype": "Data",
-   "label": "Insurance Policy"
+   "label": "Insurance Policy No."
   },
   {
    "fieldname": "insurance_expiry",
@@ -204,7 +204,7 @@
  ],
  "icon": "octicon octicon-rocket",
  "links": [],
- "modified": "2023-09-27 05:31:39.194154",
+ "modified": "2024-02-04 23:09:52.959235",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Vehicle",
