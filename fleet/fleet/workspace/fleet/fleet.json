@@ -1,22 +1,28 @@
 {
  "charts": [],
- "content": "[{\"id\":\"k0tiDpPQt5\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Vehicle\",\"col\":6}},{\"id\":\"MdgjBey9IG\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Salik Accounts\",\"col\":6}}]",
+ "content": "[{\"id\":\"k0tiDpPQt5\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Vehicle\",\"col\":6}},{\"id\":\"MdgjBey9IG\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Salik Accounts\",\"col\":6}},{\"id\":\"MCK87wvqvO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Vehicles\",\"col\":6}}]",
  "creation": "2023-02-09 13:17:01.514419",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 1,
+ "icon": "edit-round",
  "idx": 0,
  "is_hidden": 0,
  "kard_menu": [],
  "label": "Fleet",
  "links": [],
- "modified": "2024-01-28 00:26:50.629503",
+ "modified": "2025-12-22 03:32:28.544441",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Fleet",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Active Vehicles",
+   "number_card_name": "Active Vehicles"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
