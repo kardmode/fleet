@@ -55,6 +55,7 @@
    "fieldname": "make",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Make",
    "options": "Make",
    "reqd": 1
@@ -204,7 +205,7 @@
  ],
  "icon": "octicon octicon-rocket",
  "links": [],
- "modified": "2024-02-04 23:09:52.959235",
+ "modified": "2026-05-27 23:06:56.423073",
  "modified_by": "Administrator",
  "module": "Fleet",
  "name": "Vehicle",
